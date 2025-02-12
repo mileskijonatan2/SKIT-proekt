@@ -1,7 +1,8 @@
 # Testing of FlightTickets – app for booking flight tickets from various airlines
 
 ### Run Unit Tests
-```pytest
+```markdown
+pytest
 ```
 
 ### Run E2E Tests
