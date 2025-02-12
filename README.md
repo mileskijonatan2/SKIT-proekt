@@ -5,7 +5,9 @@
 ```
 
 ### Run E2E Tests
-```npx cypress open
+```markdown
+npx cypress open
 ```
-```python manage.py testserver TicketsApp/fixtures/test_data.json --addrport 127.0.0.1:8000
+```markdown
+python manage.py testserver TicketsApp/fixtures/test_data.json --addrport 127.0.0.1:8000
 ```
