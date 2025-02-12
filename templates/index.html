@@ -49,7 +49,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const maxSeats = {{ form.max_seats }};  
+            const maxSeats = {{ form.max_seats | default:50 }};  
             const checkboxes = document.querySelectorAll('.seat-checkbox');
 
             checkboxes.forEach(checkbox => {
@@ -73,12 +73,15 @@
         });
         
         document.addEventListener("DOMContentLoaded", function() {
-            const maxSeats = {{ num_seats }};  // Set the max number of seats allowed
+            const maxSeats = {{ num_seats| default:50 }} // Set the max number of seats allowed
             const seatCheckboxes = document.querySelectorAll('.seat-checkbox');
             const confirmButton = document.getElementById('confirm-btn');
 
             // Disable confirm button initially
-            confirmButton.disabled = true;
+            if (confirmButton){
+                confirmButton.disabled = true;
+            }
+            //confirmButton.disabled = true;
 
             function updateConfirmButtonState() {
                 const selectedSeats = document.querySelectorAll('.seat-checkbox:checked').length;

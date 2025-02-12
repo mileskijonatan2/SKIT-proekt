@@ -1,0 +1,1016 @@
+[
+{
+  "model": "TicketsApp.country",
+  "pk": 1,
+  "fields": {
+    "name": "Macedonia",
+    "country_code": "MKD"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 2,
+  "fields": {
+    "name": "Serbia",
+    "country_code": "SRB"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 3,
+  "fields": {
+    "name": "Germany",
+    "country_code": "DEU"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 4,
+  "fields": {
+    "name": "Greece",
+    "country_code": "GRC"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 5,
+  "fields": {
+    "name": "Austria",
+    "country_code": "AUT"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 6,
+  "fields": {
+    "name": "Sweeden",
+    "country_code": "SWE"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 7,
+  "fields": {
+    "name": "Norway",
+    "country_code": "NOR"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 8,
+  "fields": {
+    "name": "United Arab Emirates",
+    "country_code": "UAE"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 9,
+  "fields": {
+    "name": "Turkey",
+    "country_code": "TUR"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 10,
+  "fields": {
+    "name": "Russia",
+    "country_code": "RUS"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 11,
+  "fields": {
+    "name": "United Kingdom",
+    "country_code": "GBR"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 12,
+  "fields": {
+    "name": "United States of America",
+    "country_code": "USA"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 13,
+  "fields": {
+    "name": "Spain",
+    "country_code": "ESP"
+  }
+},
+{
+  "model": "TicketsApp.country",
+  "pk": 14,
+  "fields": {
+    "name": "Hungary",
+    "country_code": "HUN"
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 1,
+  "fields": {
+    "name": "Budapest Ferenc Liszt International Airport",
+    "code": "BUD",
+    "city": "Budapest",
+    "country": 14
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 2,
+  "fields": {
+    "name": "Adolfo Sußrez Madrid-Barajas Airport",
+    "code": "MAD",
+    "city": "Madrid",
+    "country": 13
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 3,
+  "fields": {
+    "name": "John F. Kennedy International Airport",
+    "code": "JFK",
+    "city": "New York City",
+    "country": 12
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 4,
+  "fields": {
+    "name": "Heathrow Airport",
+    "code": "LHR",
+    "city": "London",
+    "country": 11
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 5,
+  "fields": {
+    "name": "Sheremetyevo International Airport",
+    "code": "SVO",
+    "city": "Moscow",
+    "country": 10
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 6,
+  "fields": {
+    "name": "Istanbul Airport",
+    "code": "IST",
+    "city": "Istanbul",
+    "country": 9
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 7,
+  "fields": {
+    "name": "Dubai International Airport",
+    "code": "DXB",
+    "city": "Dubai",
+    "country": 8
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 8,
+  "fields": {
+    "name": "Oslo Gardermoen Airport",
+    "code": "OSL",
+    "city": "Oslo",
+    "country": 7
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 9,
+  "fields": {
+    "name": "Stockholm Arlanda Airport",
+    "code": "ARN",
+    "city": "Stockholm",
+    "country": 6
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 10,
+  "fields": {
+    "name": "Vienna International Airport",
+    "code": "VIE",
+    "city": "Vienna",
+    "country": 5
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 11,
+  "fields": {
+    "name": "Athens International Airport",
+    "code": "ATH",
+    "city": "Athens",
+    "country": 4
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 12,
+  "fields": {
+    "name": "Frankfurt Airport",
+    "code": "FRA",
+    "city": "Frankfurt",
+    "country": 3
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 13,
+  "fields": {
+    "name": "Belgrade Nikola Tesla Airport",
+    "code": "BEG",
+    "city": "Belgrade",
+    "country": 2
+  }
+},
+{
+  "model": "TicketsApp.airport",
+  "pk": 14,
+  "fields": {
+    "name": "Skopje International Airport",
+    "code": "SKP",
+    "city": "Skopje",
+    "country": 1
+  }
+},
+{
+  "model": "TicketsApp.airline",
+  "pk": 1,
+  "fields": {
+    "name": "Emirates",
+    "country": 8,
+    "date_established": "2005-03-08",
+    "num_of_planes": 6
+  }
+},
+{
+  "model": "TicketsApp.airline",
+  "pk": 2,
+  "fields": {
+    "name": "ArizonaAirlines",
+    "country": 12,
+    "date_established": "1985-06-11",
+    "num_of_planes": 60
+  }
+},
+{
+  "model": "TicketsApp.airline",
+  "pk": 3,
+  "fields": {
+    "name": "RyanAir",
+    "country": 11,
+    "date_established": "2011-04-14",
+    "num_of_planes": 15
+  }
+},
+{
+  "model": "TicketsApp.airline",
+  "pk": 4,
+  "fields": {
+    "name": "AustrianAirlines",
+    "country": 5,
+    "date_established": "2000-05-01",
+    "num_of_planes": 30
+  }
+},
+{
+  "model": "TicketsApp.airline",
+  "pk": 5,
+  "fields": {
+    "name": "US Airways",
+    "country": 12,
+    "date_established": "1935-07-12",
+    "num_of_planes": 100
+  }
+},
+{
+  "model": "TicketsApp.airline",
+  "pk": 6,
+  "fields": {
+    "name": "WizzAir",
+    "country": 14,
+    "date_established": "2003-08-04",
+    "num_of_planes": 25
+  }
+},
+{
+  "model": "TicketsApp.airline",
+  "pk": 7,
+  "fields": {
+    "name": "TurkishAirlines",
+    "country": 9,
+    "date_established": "2010-11-18",
+    "num_of_planes": 40
+  }
+},
+{
+  "model": "TicketsApp.flight",
+  "pk": 4,
+  "fields": {
+    "flight_number": "MW1041",
+    "airline": 1,
+    "departure_airport": 7,
+    "arrival_airport": 13,
+    "departure_time": "2025-03-26T22:30:00Z",
+    "arrival_time": "2024-09-26T01:00:00Z",
+    "duration": "02:30:00",
+    "price": "350.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 321,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A1",
+    "class_type": "FC",
+    "is_available": false,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 322,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B2",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 323,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C3",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 324,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D4",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 325,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E5",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 326,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F6",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 327,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A7",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 328,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B8",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 329,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C9",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 330,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D10",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 331,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E11",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 332,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F12",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 333,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A13",
+    "class_type": "FC",
+    "is_available": true,
+    "price": "665.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 334,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B14",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 335,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C15",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 336,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D16",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 337,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E17",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 338,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F18",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 339,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A19",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 340,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B20",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 341,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C21",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 342,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D22",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 343,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E23",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 344,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F24",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 345,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A25",
+    "class_type": "BS",
+    "is_available": true,
+    "price": "594.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 346,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B26",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 347,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C27",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 348,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D28",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 349,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E29",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 350,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F30",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 351,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A31",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 352,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B32",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 353,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C33",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 354,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D34",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 355,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E35",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 356,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F36",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 357,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A37",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 358,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B38",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 359,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C39",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 360,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D40",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 361,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E41",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 362,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F42",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 363,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A43",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 364,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B44",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 365,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C45",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 366,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D46",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 367,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E47",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 368,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F48",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 369,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A49",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 370,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B50",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 371,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C51",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 372,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D52",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 373,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E53",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 374,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F54",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 375,
+  "fields": {
+    "flight": 4,
+    "seat_number": "A55",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 376,
+  "fields": {
+    "flight": 4,
+    "seat_number": "B56",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 377,
+  "fields": {
+    "flight": 4,
+    "seat_number": "C57",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 378,
+  "fields": {
+    "flight": 4,
+    "seat_number": "D58",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 379,
+  "fields": {
+    "flight": 4,
+    "seat_number": "E59",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "TicketsApp.seat",
+  "pk": 380,
+  "fields": {
+    "flight": 4,
+    "seat_number": "F60",
+    "class_type": "EC",
+    "is_available": true,
+    "price": "420.00"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$cz6iGOXHBal9miHZqYmmol$jUZT6DNTKrsi5uTuAVTMZjTzdxi7GWucufq3iGKRTq4=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-02-12T12:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

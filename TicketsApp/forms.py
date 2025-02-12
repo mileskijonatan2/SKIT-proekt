@@ -35,7 +35,7 @@ class SeatSelectionForm(forms.Form):
     def __init__(self, *args, max_seats=1, **kwargs):
         available_seats = kwargs.pop('available_seats', [])
         super(SeatSelectionForm, self).__init__(*args, **kwargs)
-        self.max_seats = max_seats
+        self.max_seats = int(max_seats)
 
         for seat in available_seats:
             if seat.is_available:

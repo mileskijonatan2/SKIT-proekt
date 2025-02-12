@@ -80,17 +80,15 @@ def passenger_details(request, id):
                     country_of_residence=Country.objects.get(country_code=passenger_data['country']),
                 )
             return redirect('booked flights')
-    else:
-        formset = PassengerFormSet(initial=[
-            {'seat_number': seat} for seat in selected_seats
-        ])
 
+    formset = PassengerFormSet(initial=[
+        {'seat_number': seat} for seat in selected_seats
+    ])
     return render(request, 'passengerDetails.html', {'formset': formset})
 
 
 @login_required(login_url='/login/')
 def booked_flights(request):
     passengers = Passenger.objects.filter(booking__user=request.user)
-
     return render(request, 'bookedFlights.html', {'passengers': passengers})
 
